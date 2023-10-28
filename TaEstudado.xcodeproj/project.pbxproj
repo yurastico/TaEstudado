@@ -13,6 +13,8 @@
 		C56D25282AED2BA200365EB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56D25272AED2BA200365EB7 /* Preview Assets.xcassets */; };
 		C56D252F2AED2C6700365EB7 /* StudyPlanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56D252E2AED2C6700365EB7 /* StudyPlanListView.swift */; };
 		C56D25312AED2D1600365EB7 /* StudyPlanFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56D25302AED2D1600365EB7 /* StudyPlanFormView.swift */; };
+		C56D25332AED2F1500365EB7 /* StudyPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56D25322AED2F1500365EB7 /* StudyPlan.swift */; };
+		C56D25352AED323B00365EB7 /* StudyPlanManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56D25342AED323B00365EB7 /* StudyPlanManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		C56D25272AED2BA200365EB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C56D252E2AED2C6700365EB7 /* StudyPlanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPlanListView.swift; sourceTree = "<group>"; };
 		C56D25302AED2D1600365EB7 /* StudyPlanFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPlanFormView.swift; sourceTree = "<group>"; };
+		C56D25322AED2F1500365EB7 /* StudyPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPlan.swift; sourceTree = "<group>"; };
+		C56D25342AED323B00365EB7 /* StudyPlanManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPlanManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +43,6 @@
 		C56D25142AED2BA100365EB7 = {
 			isa = PBXGroup;
 			children = (
-				C56D25302AED2D1600365EB7 /* StudyPlanFormView.swift */,
 				C56D251F2AED2BA100365EB7 /* TaEstudado */,
 				C56D251E2AED2BA100365EB7 /* Products */,
 			);
@@ -57,7 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				C56D25202AED2BA100365EB7 /* TaEstudadoApp.swift */,
+				C56D25342AED323B00365EB7 /* StudyPlanManager.swift */,
 				C56D25222AED2BA100365EB7 /* ContentView.swift */,
+				C56D25322AED2F1500365EB7 /* StudyPlan.swift */,
+				C56D25302AED2D1600365EB7 /* StudyPlanFormView.swift */,
 				C56D252E2AED2C6700365EB7 /* StudyPlanListView.swift */,
 				C56D25242AED2BA200365EB7 /* Assets.xcassets */,
 				C56D25262AED2BA200365EB7 /* Preview Content */,
@@ -143,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C56D25352AED323B00365EB7 /* StudyPlanManager.swift in Sources */,
 				C56D25232AED2BA100365EB7 /* ContentView.swift in Sources */,
+				C56D25332AED2F1500365EB7 /* StudyPlan.swift in Sources */,
 				C56D25312AED2D1600365EB7 /* StudyPlanFormView.swift in Sources */,
 				C56D252F2AED2C6700365EB7 /* StudyPlanListView.swift in Sources */,
 				C56D25212AED2BA100365EB7 /* TaEstudadoApp.swift in Sources */,
